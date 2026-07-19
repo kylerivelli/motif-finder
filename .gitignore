@@ -1,0 +1,7 @@
+# Secrets stay in Vercel env vars / local .env only
+.env
+.env.*
+
+__pycache__/
+*.pyc
+.vercel/

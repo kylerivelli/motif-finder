@@ -1,0 +1,2135 @@
+{
+ "source": "https://vultology.com/motifs/",
+ "motifs": [
+  {
+   "name": "Absurdity",
+   "slug": "absurdity",
+   "count": 5
+  },
+  {
+   "name": "Academic Interests and Education",
+   "slug": "academic-interests-and-education",
+   "count": 83
+  },
+  {
+   "name": "Academy Award Recipient",
+   "slug": "academy-award-recipient",
+   "count": 11
+  },
+  {
+   "name": "Acting and its aspects",
+   "slug": "acting-and-its-aspects",
+   "count": 81
+  },
+  {
+   "name": "Activism and Advocacy",
+   "slug": "activism-and-advocacy",
+   "count": 96
+  },
+  {
+   "name": "Acute Perception",
+   "slug": "acute-perception",
+   "count": 42
+  },
+  {
+   "name": "Addiction",
+   "slug": "addiction",
+   "count": 13
+  },
+  {
+   "name": "Aesthetics, Beauty and Artworks",
+   "slug": "aesthetics-beauty-and-artworks",
+   "count": 108
+  },
+  {
+   "name": "Alchemy and Mysticism",
+   "slug": "alchemy-and-mysticism",
+   "count": 11
+  },
+  {
+   "name": "Alternative Media and Independent Journalism",
+   "slug": "alternative-media-and-independent-journalism",
+   "count": 12
+  },
+  {
+   "name": "Alternative Medicine and Healing",
+   "slug": "alternative-medicine-and-healing",
+   "count": 18
+  },
+  {
+   "name": "Alternative Rock",
+   "slug": "alternative-rock",
+   "count": 36
+  },
+  {
+   "name": "Ambient and Atmospheric Soundscapes",
+   "slug": "ambient-and-atmospheric-soundscapes",
+   "count": 6
+  },
+  {
+   "name": "Americana Rock",
+   "slug": "americana-rock",
+   "count": 4
+  },
+  {
+   "name": "Anarchism",
+   "slug": "anarchism",
+   "count": 5
+  },
+  {
+   "name": "Angel Investing and Venture Capitalism",
+   "slug": "angel-investing-and-venture-capitalism",
+   "count": 5
+  },
+  {
+   "name": "Animal Rights",
+   "slug": "animal-rights",
+   "count": 9
+  },
+  {
+   "name": "Anthropology and Comparative Religion",
+   "slug": "anthropology-and-comparative-religion",
+   "count": 11
+  },
+  {
+   "name": "Anti-aging and Longevity",
+   "slug": "anti-aging-and-longevity",
+   "count": 10
+  },
+  {
+   "name": "Anti-Authoritarianism",
+   "slug": "anti-authoritarianism",
+   "count": 14
+  },
+  {
+   "name": "Archeological Investigations",
+   "slug": "archeological-investigations",
+   "count": 4
+  },
+  {
+   "name": "Archeology",
+   "slug": "archeology",
+   "count": 2
+  },
+  {
+   "name": "Artificial Intelligence",
+   "slug": "artificial-intelligence",
+   "count": 20
+  },
+  {
+   "name": "Artistic Expression and Creativity",
+   "slug": "artistic-expression-and-creativity",
+   "count": 170
+  },
+  {
+   "name": "Artwork and Solitude as Therapy",
+   "slug": "artwork-and-solitude-as-therapy",
+   "count": 17
+  },
+  {
+   "name": "Astrological Beliefs",
+   "slug": "astrological-beliefs",
+   "count": 6
+  },
+  {
+   "name": "Astronomy",
+   "slug": "astronomy",
+   "count": 3
+  },
+  {
+   "name": "Atheism and Skepticism",
+   "slug": "atheism-and-skepticism",
+   "count": 14
+  },
+  {
+   "name": "Athletics, Exercise and Health Optimization",
+   "slug": "athletics-exercise-and-health-optimization",
+   "count": 90
+  },
+  {
+   "name": "Austerity and Self-Regulation",
+   "slug": "austerity-and-self-regulation",
+   "count": 26
+  },
+  {
+   "name": "Authoritarian Leadership and Totalitarianism",
+   "slug": "authoritarian-leadership-and-totalitarianism",
+   "count": 12
+  },
+  {
+   "name": "Autism Spectrum",
+   "slug": "autism-spectrum",
+   "count": 1
+  },
+  {
+   "name": "Autonomy and Self-Empowerment",
+   "slug": "autonomy-and-self-empowerment",
+   "count": 58
+  },
+  {
+   "name": "Balancing Masculine and Feminine Energies",
+   "slug": "balancing-masculine-and-feminine-energies",
+   "count": 14
+  },
+  {
+   "name": "Beauty and Horror Intertwined",
+   "slug": "beauty-and-horror-intertwined",
+   "count": 3
+  },
+  {
+   "name": "Beauty Tutorials (Makeup, Skincare)",
+   "slug": "beauty-tutorials-makeup-skincare",
+   "count": 8
+  },
+  {
+   "name": "Being Present and Living in the Moment",
+   "slug": "being-present-and-living-in-the-moment",
+   "count": 39
+  },
+  {
+   "name": "Biblical Archeology",
+   "slug": "biblical-archeology",
+   "count": 2
+  },
+  {
+   "name": "Biohacking and Self-Experimentation",
+   "slug": "biohacking-and-self-experimentation",
+   "count": 14
+  },
+  {
+   "name": "Biologist",
+   "slug": "biologist",
+   "count": 0
+  },
+  {
+   "name": "Biotechnology and Genetic Engineering",
+   "slug": "biotechnology-and-genetic-engineering",
+   "count": 6
+  },
+  {
+   "name": "Body as Emotional Vehicle",
+   "slug": "body-as-emotional-vehicle",
+   "count": 20
+  },
+  {
+   "name": "Body Language and Communication",
+   "slug": "body-language-and-communication",
+   "count": 13
+  },
+  {
+   "name": "Body Positivity and Confidence",
+   "slug": "body-positivity-and-confidence",
+   "count": 26
+  },
+  {
+   "name": "Business Leadership",
+   "slug": "business-leadership",
+   "count": 27
+  },
+  {
+   "name": "Business, Finance, and Economics",
+   "slug": "business-finance-and-economics",
+   "count": 39
+  },
+  {
+   "name": "Career Flexibility and Fear of Failure",
+   "slug": "career-flexibility-and-fear-of-failure",
+   "count": 6
+  },
+  {
+   "name": "Celebrity and Pop Culture",
+   "slug": "celebrity-and-pop-culture",
+   "count": 47
+  },
+  {
+   "name": "Challenges Societal Norms",
+   "slug": "challenges-societal-norms",
+   "count": 37
+  },
+  {
+   "name": "Chance, Probability, and the Absence of Cosmic Order",
+   "slug": "chance-probability-and-the-absence-of-cosmic-order",
+   "count": 1
+  },
+  {
+   "name": "Charity, Alturism and Philanthropy",
+   "slug": "charity-alturism-and-philanthropy",
+   "count": 31
+  },
+  {
+   "name": "Child Discipline and Development",
+   "slug": "child-discipline-and-development",
+   "count": 1
+  },
+  {
+   "name": "Child Prodigy",
+   "slug": "child-prodigy",
+   "count": 12
+  },
+  {
+   "name": "Childhood and Lost Innocence",
+   "slug": "childhood-and-lost-innocence",
+   "count": 2
+  },
+  {
+   "name": "Christian Faith and Apologetics",
+   "slug": "christian-faith-and-apologetics",
+   "count": 18
+  },
+  {
+   "name": "Cinematic Music",
+   "slug": "cinematic-music",
+   "count": 6
+  },
+  {
+   "name": "Classical music",
+   "slug": "classical-music",
+   "count": 4
+  },
+  {
+   "name": "Codes and Semiotics",
+   "slug": "codes-and-semiotics",
+   "count": 1
+  },
+  {
+   "name": "Cognitive Science",
+   "slug": "cognitive-science",
+   "count": 12
+  },
+  {
+   "name": "Comedy, Improv, and Skits",
+   "slug": "comedy-improv-and-skits",
+   "count": 39
+  },
+  {
+   "name": "Community and Collective Identity",
+   "slug": "community-and-collective-identity",
+   "count": 28
+  },
+  {
+   "name": "Computer Science and Technology",
+   "slug": "computer-science-and-technology",
+   "count": 11
+  },
+  {
+   "name": "Confidence and Emotional Stability",
+   "slug": "confidence-and-emotional-stability",
+   "count": 55
+  },
+  {
+   "name": "Conflict Resolution and Peacekeeping",
+   "slug": "conflict-resolution-and-peacekeeping",
+   "count": 9
+  },
+  {
+   "name": "Connection with Animals",
+   "slug": "connection-with-animals",
+   "count": 14
+  },
+  {
+   "name": "Consciousness and Reality Creation",
+   "slug": "consciousness-and-reality-creation",
+   "count": 27
+  },
+  {
+   "name": "Conservatism and Family Values",
+   "slug": "conservatism-and-family-values",
+   "count": 28
+  },
+  {
+   "name": "Consistency and Longevity",
+   "slug": "consistency-and-longevity",
+   "count": 7
+  },
+  {
+   "name": "Conspiracy Theories",
+   "slug": "conspiracy-theories",
+   "count": 12
+  },
+  {
+   "name": "Contemporary Classical",
+   "slug": "contemporary-classical",
+   "count": 7
+  },
+  {
+   "name": "Contract Killer",
+   "slug": "contract-killer",
+   "count": 0
+  },
+  {
+   "name": "Contradiction and Paradox",
+   "slug": "contradiction-and-paradox",
+   "count": 1
+  },
+  {
+   "name": "Controversial",
+   "slug": "controversial",
+   "count": 76
+  },
+  {
+   "name": "Cosmetic and Plastic Surgery",
+   "slug": "cosmetic-and-plastic-surgery",
+   "count": 2
+  },
+  {
+   "name": "Cosmic Mystery",
+   "slug": "cosmic-mystery",
+   "count": 3
+  },
+  {
+   "name": "Courage under Pressure",
+   "slug": "courage-under-pressure",
+   "count": 40
+  },
+  {
+   "name": "Creative Production and Directing",
+   "slug": "creative-production-and-directing",
+   "count": 40
+  },
+  {
+   "name": "Critical Thinking and Analysis",
+   "slug": "critical-thinking-and-analysis",
+   "count": 34
+  },
+  {
+   "name": "Critique of Anthropocentrism",
+   "slug": "critique-of-anthropocentrism",
+   "count": 1
+  },
+  {
+   "name": "Critique of Capitalism",
+   "slug": "critique-of-capitalism",
+   "count": 1
+  },
+  {
+   "name": "Critique of LGBTQ+ Discourse",
+   "slug": "critique-of-lgbtq-discourse",
+   "count": 8
+  },
+  {
+   "name": "Critique of Modernity",
+   "slug": "critique-of-modernity",
+   "count": 13
+  },
+  {
+   "name": "Cross-Domain Synthesizing and Holism",
+   "slug": "cross-domain-synthesizing-and-holism",
+   "count": 24
+  },
+  {
+   "name": "Cultural Commentary and Sociology",
+   "slug": "cultural-commentary-and-sociology",
+   "count": 82
+  },
+  {
+   "name": "Curiosity and Rabbit Holes",
+   "slug": "curiosity-and-rabbit-holes",
+   "count": 29
+  },
+  {
+   "name": "Cybersecurity",
+   "slug": "cybersecurity",
+   "count": 1
+  },
+  {
+   "name": "Dancing Techniques and Choreography",
+   "slug": "dancing-techniques-and-choreography",
+   "count": 22
+  },
+  {
+   "name": "Dark Aesthetics",
+   "slug": "dark-aesthetics",
+   "count": 29
+  },
+  {
+   "name": "Dark and Atmospheric Sensations",
+   "slug": "dark-and-atmospheric-sensations",
+   "count": 54
+  },
+  {
+   "name": "Dark Romance",
+   "slug": "dark-romance",
+   "count": 1
+  },
+  {
+   "name": "Data-Driven Analysis",
+   "slug": "data-driven-analysis",
+   "count": 10
+  },
+  {
+   "name": "Death and the Unknown",
+   "slug": "death-and-the-unknown",
+   "count": 4
+  },
+  {
+   "name": "Debates and Intellectual Dialogue",
+   "slug": "debates-and-intellectual-dialogue",
+   "count": 42
+  },
+  {
+   "name": "Decentralization of Knowledge",
+   "slug": "decentralization-of-knowledge",
+   "count": 2
+  },
+  {
+   "name": "Design and Architecture",
+   "slug": "design-and-architecture",
+   "count": 3
+  },
+  {
+   "name": "Desire and Lack",
+   "slug": "desire-and-lack",
+   "count": 1
+  },
+  {
+   "name": "Detachment and Self-Transcendence",
+   "slug": "detachment-and-self-transcendence",
+   "count": 14
+  },
+  {
+   "name": "Digital Marketing",
+   "slug": "digital-marketing",
+   "count": 10
+  },
+  {
+   "name": "Discarding Inherited Falsehoods",
+   "slug": "discarding-inherited-falsehoods",
+   "count": 11
+  },
+  {
+   "name": "Dissociation and Disconnection",
+   "slug": "dissociation-and-disconnection",
+   "count": 4
+  },
+  {
+   "name": "Diverse Range of Genres",
+   "slug": "diverse-range-of-genres",
+   "count": 33
+  },
+  {
+   "name": "Divine Concepts and Theology",
+   "slug": "divine-concepts-and-theology",
+   "count": 24
+  },
+  {
+   "name": "Divine Inspiration in Creativity",
+   "slug": "divine-inspiration-in-creativity",
+   "count": 10
+  },
+  {
+   "name": "Divine Intervention and Contemplative Prayer",
+   "slug": "divine-intervention-and-contemplative-prayer",
+   "count": 2
+  },
+  {
+   "name": "Domestic Lifestyle and Family Dedication",
+   "slug": "domestic-lifestyle-and-family-dedication",
+   "count": 11
+  },
+  {
+   "name": "Dream Pop",
+   "slug": "dream-pop",
+   "count": 5
+  },
+  {
+   "name": "Eastern Philosophy",
+   "slug": "eastern-philosophy",
+   "count": 11
+  },
+  {
+   "name": "Education and Online Learning",
+   "slug": "education-and-online-learning",
+   "count": 7
+  },
+  {
+   "name": "Elections and Political Campaigning",
+   "slug": "elections-and-political-campaigning",
+   "count": 20
+  },
+  {
+   "name": "Electric Dance Music",
+   "slug": "electric-dance-music",
+   "count": 0
+  },
+  {
+   "name": "Electric Vehicles (EVs)",
+   "slug": "electric-vehicles-evs",
+   "count": 2
+  },
+  {
+   "name": "Electronic Music",
+   "slug": "electronic-music",
+   "count": 14
+  },
+  {
+   "name": "Emotional Depth and Introspection",
+   "slug": "emotional-depth-and-introspection",
+   "count": 37
+  },
+  {
+   "name": "Emotional Sensitivity and HSP",
+   "slug": "emotional-sensitivity-and-hsp",
+   "count": 12
+  },
+  {
+   "name": "Empowerment through Art and Language",
+   "slug": "empowerment-through-art-and-language",
+   "count": 50
+  },
+  {
+   "name": "Enneagram",
+   "slug": "enneagram",
+   "count": 2
+  },
+  {
+   "name": "Entrepreneurial Drive",
+   "slug": "entrepreneurial-drive",
+   "count": 73
+  },
+  {
+   "name": "Environmentalism and Connection to Nature",
+   "slug": "environmentalism-and-connection-to-nature",
+   "count": 42
+  },
+  {
+   "name": "Epistemology",
+   "slug": "epistemology",
+   "count": 3
+  },
+  {
+   "name": "Eschatology",
+   "slug": "eschatology",
+   "count": 4
+  },
+  {
+   "name": "Esotericism",
+   "slug": "esotericism",
+   "count": 16
+  },
+  {
+   "name": "Ethereal Soundscapes",
+   "slug": "ethereal-soundscapes",
+   "count": 32
+  },
+  {
+   "name": "Ethical and Social Implications of Technology",
+   "slug": "ethical-and-social-implications-of-technology",
+   "count": 2
+  },
+  {
+   "name": "Ethnobotany and Cultural Traditions",
+   "slug": "ethnobotany-and-cultural-traditions",
+   "count": 2
+  },
+  {
+   "name": "Existential Themes",
+   "slug": "existential-themes",
+   "count": 63
+  },
+  {
+   "name": "Existentialism",
+   "slug": "existentialism",
+   "count": 18
+  },
+  {
+   "name": "Fact Checking and Accuracy",
+   "slug": "fact-checking-and-accuracy",
+   "count": 20
+  },
+  {
+   "name": "Fame and Interpersonal Influence",
+   "slug": "fame-and-interpersonal-influence",
+   "count": 40
+  },
+  {
+   "name": "Fandom and Celebrity Obsessions",
+   "slug": "fandom-and-celebrity-obsessions",
+   "count": 8
+  },
+  {
+   "name": "Far Right Politics",
+   "slug": "far-right-politics",
+   "count": 5
+  },
+  {
+   "name": "Fashion and Style",
+   "slug": "fashion",
+   "count": 125
+  },
+  {
+   "name": "Feminism",
+   "slug": "feminism",
+   "count": 3
+  },
+  {
+   "name": "Feminism and Gender Studies",
+   "slug": "feminism-and-gender-studies",
+   "count": 4
+  },
+  {
+   "name": "Film Directing and Playwriting",
+   "slug": "film-directing-and-playwriting",
+   "count": 36
+  },
+  {
+   "name": "Films and Entertainment",
+   "slug": "films-and-entertainment",
+   "count": 95
+  },
+  {
+   "name": "Flamboyant Personas",
+   "slug": "flamboyant-personas",
+   "count": 33
+  },
+  {
+   "name": "Flexibility and Adaptability",
+   "slug": "flexibility-and-adaptability",
+   "count": 17
+  },
+  {
+   "name": "Flow State",
+   "slug": "flow-state",
+   "count": 38
+  },
+  {
+   "name": "Folk/Bluegrass",
+   "slug": "folk-bluegrass",
+   "count": 15
+  },
+  {
+   "name": "Food",
+   "slug": "food",
+   "count": 2
+  },
+  {
+   "name": "Form and Function",
+   "slug": "form-and-function",
+   "count": 11
+  },
+  {
+   "name": "Free Speech",
+   "slug": "free-speech",
+   "count": 10
+  },
+  {
+   "name": "Freedom of Expression",
+   "slug": "freedom-of-expression",
+   "count": 42
+  },
+  {
+   "name": "French Cinema",
+   "slug": "french-cinema",
+   "count": 2
+  },
+  {
+   "name": "Futurism and Societal Predictions",
+   "slug": "futurism-and-societal-predictions",
+   "count": 11
+  },
+  {
+   "name": "Futurology",
+   "slug": "futurology",
+   "count": 1
+  },
+  {
+   "name": "Gaming",
+   "slug": "gaming",
+   "count": 9
+  },
+  {
+   "name": "Gardening",
+   "slug": "gardening",
+   "count": 4
+  },
+  {
+   "name": "Gender Equality",
+   "slug": "gender-equality",
+   "count": 29
+  },
+  {
+   "name": "Generation Z and Conservatism",
+   "slug": "generation-z-and-conservatism",
+   "count": 3
+  },
+  {
+   "name": "Genre Fusion",
+   "slug": "genre-fusion",
+   "count": 13
+  },
+  {
+   "name": "Geological Explorations",
+   "slug": "geological-explorations",
+   "count": 0
+  },
+  {
+   "name": "Gothic",
+   "slug": "gothic",
+   "count": 3
+  },
+  {
+   "name": "Government Accountability",
+   "slug": "government-accountability",
+   "count": 9
+  },
+  {
+   "name": "Gratitude Practice",
+   "slug": "gratitude-practice",
+   "count": 9
+  },
+  {
+   "name": "Grounded Realism",
+   "slug": "grounded-realism",
+   "count": 4
+  },
+  {
+   "name": "Grunge",
+   "slug": "grunge",
+   "count": 3
+  },
+  {
+   "name": "Guerilla Warfare",
+   "slug": "guerilla-warfare",
+   "count": 2
+  },
+  {
+   "name": "Guidance and Mentorship",
+   "slug": "guidance-and-mentorship",
+   "count": 33
+  },
+  {
+   "name": "Guilt and Redemption",
+   "slug": "guilt-and-redemption",
+   "count": 4
+  },
+  {
+   "name": "Health, Wellness, and Nutrition",
+   "slug": "health-wellness-and-nutrition",
+   "count": 49
+  },
+  {
+   "name": "Heart-Centered Listening",
+   "slug": "heart-centered-listening",
+   "count": 6
+  },
+  {
+   "name": "Heartland Rock",
+   "slug": "heartland-rock",
+   "count": 1
+  },
+  {
+   "name": "Hedonism and Self-Indulgence",
+   "slug": "hedonism-and-self-indulgence",
+   "count": 18
+  },
+  {
+   "name": "High Risk Tolerance",
+   "slug": "high-risk-tolerance",
+   "count": 30
+  },
+  {
+   "name": "High Standards of Competency",
+   "slug": "high-standards-of-competency",
+   "count": 51
+  },
+  {
+   "name": "Historical Figures and Events",
+   "slug": "historical-figures-and-events",
+   "count": 27
+  },
+  {
+   "name": "Historical Intricacies",
+   "slug": "historical-intricacies",
+   "count": 25
+  },
+  {
+   "name": "Historical Preservation",
+   "slug": "historical-preservation",
+   "count": 8
+  },
+  {
+   "name": "Historical Storytelling",
+   "slug": "historical-storytelling",
+   "count": 5
+  },
+  {
+   "name": "Horror Enthusiast",
+   "slug": "horror-enthusiast",
+   "count": 7
+  },
+  {
+   "name": "Human Condition",
+   "slug": "human-condition",
+   "count": 76
+  },
+  {
+   "name": "Human Interconnectedness",
+   "slug": "human-interconnectedness",
+   "count": 35
+  },
+  {
+   "name": "Human Limitations, Hubris, and Despair",
+   "slug": "human-limitations-hubris-and-despair",
+   "count": 2
+  },
+  {
+   "name": "Human Moral Responsibility",
+   "slug": "human-moral-responsibility",
+   "count": 26
+  },
+  {
+   "name": "Human Psychology",
+   "slug": "human-psychology",
+   "count": 75
+  },
+  {
+   "name": "Humanitarianism and Earth Stewardship",
+   "slug": "humanitarianism-and-earth-stewardship",
+   "count": 21
+  },
+  {
+   "name": "Hypothetical Scenarios",
+   "slug": "hypothetical-scenarios",
+   "count": 3
+  },
+  {
+   "name": "Icon and Brand",
+   "slug": "icon-and-brand",
+   "count": 6
+  },
+  {
+   "name": "Identity Exploration",
+   "slug": "identity-exploration",
+   "count": 52
+  },
+  {
+   "name": "Identity Politics",
+   "slug": "identity-politics",
+   "count": 9
+  },
+  {
+   "name": "Ideology",
+   "slug": "ideology",
+   "count": 1
+  },
+  {
+   "name": "Imaginative Exploration",
+   "slug": "imaginative-exploration",
+   "count": 43
+  },
+  {
+   "name": "Immersive Acting Method",
+   "slug": "immersive-acting-method",
+   "count": 3
+  },
+  {
+   "name": "Improvisitonal Wit",
+   "slug": "improvisitonal-wit",
+   "count": 7
+  },
+  {
+   "name": "Indie Folk Rock",
+   "slug": "indie-folk-rock",
+   "count": 16
+  },
+  {
+   "name": "Individualism and Nonconformity",
+   "slug": "individualism-and-nonconformity",
+   "count": 79
+  },
+  {
+   "name": "Information Access and Sharing",
+   "slug": "information-access-and-sharing",
+   "count": 17
+  },
+  {
+   "name": "Inherent Biases and the Autonomy of Thought",
+   "slug": "inherent-biases-and-the-autonomy-of-thought",
+   "count": 5
+  },
+  {
+   "name": "Inner Demons",
+   "slug": "inner-demons",
+   "count": 3
+  },
+  {
+   "name": "Inner Work and Self-Transformation",
+   "slug": "inner-work-and-self-transformation",
+   "count": 53
+  },
+  {
+   "name": "Innovation and Digital Transformation",
+   "slug": "innovation-and-digital-transformation",
+   "count": 34
+  },
+  {
+   "name": "Integration of Science and Spirituality",
+   "slug": "integration-of-science-and-spirituality",
+   "count": 23
+  },
+  {
+   "name": "Intellectual Excellence and Determination",
+   "slug": "intellectual-excellence-and-determination",
+   "count": 49
+  },
+  {
+   "name": "Interdisciplinary Research",
+   "slug": "interdisciplinary-research",
+   "count": 26
+  },
+  {
+   "name": "International Relations",
+   "slug": "international-relations",
+   "count": 7
+  },
+  {
+   "name": "Interrogation Techniques",
+   "slug": "interrogation-techniques",
+   "count": 1
+  },
+  {
+   "name": "Irony and Satire",
+   "slug": "irony-and-satire",
+   "count": 5
+  },
+  {
+   "name": "Isolation and Belonging",
+   "slug": "isolation-and-belonging",
+   "count": 33
+  },
+  {
+   "name": "Isolation and Madness",
+   "slug": "isolation-and-madness",
+   "count": 2
+  },
+  {
+   "name": "Journalism and Media",
+   "slug": "journalism-and-media",
+   "count": 24
+  },
+  {
+   "name": "Jungian Typology and Personality",
+   "slug": "jungian-typology-and-personality",
+   "count": 17
+  },
+  {
+   "name": "Language and Communication",
+   "slug": "language-and-communication",
+   "count": 15
+  },
+  {
+   "name": "Law of Attraction and Energy Beliefs",
+   "slug": "law-of-attraction-and-energy-beliefs",
+   "count": 17
+  },
+  {
+   "name": "Leadership and Teamwork",
+   "slug": "leadership-and-teamwork",
+   "count": 45
+  },
+  {
+   "name": "Learning from Failure and Personal Trauma",
+   "slug": "learning-from-failure-and-personal-trauma",
+   "count": 40
+  },
+  {
+   "name": "Legal Expertise",
+   "slug": "legal-expertise",
+   "count": 12
+  },
+  {
+   "name": "Libertarian",
+   "slug": "libertarian",
+   "count": 4
+  },
+  {
+   "name": "Life Coaching and Guidance",
+   "slug": "life-coaching-and-guidance",
+   "count": 30
+  },
+  {
+   "name": "Lifelong Learning and Reading",
+   "slug": "lifelong-learning-and-reading",
+   "count": 22
+  },
+  {
+   "name": "Lifestyle and Day in a Life",
+   "slug": "lifestyle-and-day-in-a-life",
+   "count": 23
+  },
+  {
+   "name": "Limitations and Instrumentalism of Philosophy",
+   "slug": "limitations-and-instrumentalism-of-philosophy",
+   "count": 5
+  },
+  {
+   "name": "Limits of Human Knowledge and Cognition",
+   "slug": "limits-of-human-knowledge-and-cognition",
+   "count": 2
+  },
+  {
+   "name": "Literary Analysis and Criticism",
+   "slug": "literary-analysis-and-criticism",
+   "count": 11
+  },
+  {
+   "name": "Lo-fi sound",
+   "slug": "lo-fi-sound",
+   "count": 2
+  },
+  {
+   "name": "Logic and Computation",
+   "slug": "logic-and-computation",
+   "count": 28
+  },
+  {
+   "name": "Love, Relationships and Intimacy",
+   "slug": "love-relationships-and-intimacy",
+   "count": 49
+  },
+  {
+   "name": "Magical and Fantastical Focus",
+   "slug": "magical-and-fantastical-focus",
+   "count": 16
+  },
+  {
+   "name": "Martial Arts and Combat Sports",
+   "slug": "martial-arts-and-combat-sports",
+   "count": 32
+  },
+  {
+   "name": "Marxism",
+   "slug": "marxism",
+   "count": 1
+  },
+  {
+   "name": "Maternal Figure",
+   "slug": "maternal-figure",
+   "count": 2
+  },
+  {
+   "name": "Mathematics and Proofs",
+   "slug": "mathematics-and-proofs",
+   "count": 24
+  },
+  {
+   "name": "Medical Expertise",
+   "slug": "medical-expertise",
+   "count": 3
+  },
+  {
+   "name": "Medieval Myth and Legend",
+   "slug": "medieval-myth-and-legend",
+   "count": 1
+  },
+  {
+   "name": "Medieval Themes",
+   "slug": "medieval-themes",
+   "count": 2
+  },
+  {
+   "name": "Melancholy and Somber",
+   "slug": "melancholy-and-somber",
+   "count": 14
+  },
+  {
+   "name": "Mental and Emotional Health",
+   "slug": "mental-and-emotional-health",
+   "count": 62
+  },
+  {
+   "name": "Metal",
+   "slug": "metal",
+   "count": 6
+  },
+  {
+   "name": "Metaphysical Practices",
+   "slug": "metaphysical-practices",
+   "count": 7
+  },
+  {
+   "name": "Method Acting",
+   "slug": "method-acting",
+   "count": 5
+  },
+  {
+   "name": "Militarism and Expansionism",
+   "slug": "militarism-and-expansionism",
+   "count": 4
+  },
+  {
+   "name": "Mind Over Body",
+   "slug": "mind-over-body",
+   "count": 34
+  },
+  {
+   "name": "Minimalism",
+   "slug": "minimalism",
+   "count": 23
+  },
+  {
+   "name": "Moral Ambiguity and Grey Areas",
+   "slug": "moral-ambiguity-and-grey-areas",
+   "count": 24
+  },
+  {
+   "name": "Motivation, Ambition, and Personal Challenge",
+   "slug": "motivation-ambition-and-personal-challenge",
+   "count": 105
+  },
+  {
+   "name": "Motorsports",
+   "slug": "motorsports",
+   "count": 4
+  },
+  {
+   "name": "Multi-Dimensional Reality",
+   "slug": "multi-dimensional-reality",
+   "count": 10
+  },
+  {
+   "name": "Multiple Interests and Dabbling",
+   "slug": "multiple-interests-and-dabbling",
+   "count": 47
+  },
+  {
+   "name": "Music and its aspects",
+   "slug": "music-and-its-aspects",
+   "count": 120
+  },
+  {
+   "name": "Music Industry Commentary",
+   "slug": "music-industry-commentary",
+   "count": 25
+  },
+  {
+   "name": "Mystical Wisdom",
+   "slug": "mystical-wisdom",
+   "count": 5
+  },
+  {
+   "name": "Mythology and Folklore",
+   "slug": "mythology-and-folklore",
+   "count": 23
+  },
+  {
+   "name": "National Defense and Security",
+   "slug": "national-defense-and-security",
+   "count": 4
+  },
+  {
+   "name": "Nationalism and Cultural Identity",
+   "slug": "nationalism-and-cultural-identity",
+   "count": 18
+  },
+  {
+   "name": "Native American Mysticism",
+   "slug": "native-american-mysticism",
+   "count": 2
+  },
+  {
+   "name": "Natural Memory Theory",
+   "slug": "natural-memory-theory",
+   "count": 1
+  },
+  {
+   "name": "Nature vs Nurture",
+   "slug": "nature-vs-nurture",
+   "count": 3
+  },
+  {
+   "name": "Nerd Culture",
+   "slug": "nerd-culture",
+   "count": 12
+  },
+  {
+   "name": "Neuroscience and the Brain",
+   "slug": "neuroscience-and-the-brain",
+   "count": 16
+  },
+  {
+   "name": "New Age Beliefs",
+   "slug": "new-age-beliefs",
+   "count": 10
+  },
+  {
+   "name": "New Wave",
+   "slug": "new-wave",
+   "count": 5
+  },
+  {
+   "name": "News and Current Events",
+   "slug": "news-and-current-events",
+   "count": 8
+  },
+  {
+   "name": "No-self, Mindfulness and Presence",
+   "slug": "no-self-mindfulness-and-presence",
+   "count": 19
+  },
+  {
+   "name": "Nobel Prize",
+   "slug": "nobel-prize",
+   "count": 10
+  },
+  {
+   "name": "Nomadic Lifestyle",
+   "slug": "nomadic-lifestyle",
+   "count": 5
+  },
+  {
+   "name": "Non-linear Storytelling",
+   "slug": "non-linear-storytelling",
+   "count": 8
+  },
+  {
+   "name": "Nontraditional Education Pathways",
+   "slug": "nontraditional-education-pathways",
+   "count": 4
+  },
+  {
+   "name": "Nostalgia",
+   "slug": "nostalgia",
+   "count": 5
+  },
+  {
+   "name": "Numbers Names and Dates",
+   "slug": "numbers-names-and-dates",
+   "count": 10
+  },
+  {
+   "name": "Occult and Macabre Symbolism",
+   "slug": "occult-and-macabre-symbolism",
+   "count": 21
+  },
+  {
+   "name": "Online Encyclopedia",
+   "slug": "online-encyclopedia",
+   "count": 1
+  },
+  {
+   "name": "Organized Crime",
+   "slug": "organized-crime",
+   "count": 3
+  },
+  {
+   "name": "Painting",
+   "slug": "painting",
+   "count": 8
+  },
+  {
+   "name": "Parallel Worlds and Cosmic Horror",
+   "slug": "parallel-worlds-and-cosmic-horror",
+   "count": 1
+  },
+  {
+   "name": "Parapsychology and Supernatural",
+   "slug": "parapsychology-and-supernatural",
+   "count": 5
+  },
+  {
+   "name": "Parenting",
+   "slug": "parenting",
+   "count": 0
+  },
+  {
+   "name": "Parodies",
+   "slug": "parodies",
+   "count": 7
+  },
+  {
+   "name": "Passion for Helping Others",
+   "slug": "passion-for-helping-others",
+   "count": 18
+  },
+  {
+   "name": "Perfectionism and Attention to Detail",
+   "slug": "perfectionism-and-attention-to-detail",
+   "count": 35
+  },
+  {
+   "name": "Perseverance and Resilience",
+   "slug": "perseverance-and-resilience",
+   "count": 46
+  },
+  {
+   "name": "Personal Appearance and Body Image",
+   "slug": "personal-appearance-and-body-image",
+   "count": 59
+  },
+  {
+   "name": "Personal Finance",
+   "slug": "personal-finance",
+   "count": 3
+  },
+  {
+   "name": "Personal Narratives and Memories",
+   "slug": "personal-narratives-and-memories",
+   "count": 25
+  },
+  {
+   "name": "Personal Narratives and Stories",
+   "slug": "personal-narratives-and-stories",
+   "count": 54
+  },
+  {
+   "name": "Personal Philosophy and Beliefs",
+   "slug": "personal-philosophy-and-beliefs",
+   "count": 31
+  },
+  {
+   "name": "Personal Resilience and Self-Dependence",
+   "slug": "personal-resilience-and-self-dependence",
+   "count": 84
+  },
+  {
+   "name": "Personal Values and Authenticity",
+   "slug": "personal-values-and-authenticity",
+   "count": 58
+  },
+  {
+   "name": "Philosophical Inquiry",
+   "slug": "philosophical-inquiry",
+   "count": 71
+  },
+  {
+   "name": "Photography",
+   "slug": "photography",
+   "count": 5
+  },
+  {
+   "name": "Pianist",
+   "slug": "pianist",
+   "count": 6
+  },
+  {
+   "name": "Plant Medicine and Ceremonial Practices",
+   "slug": "plant-medicine-and-ceremonial-practices",
+   "count": 3
+  },
+  {
+   "name": "Playfulness and Humor",
+   "slug": "playfulness-and-humor",
+   "count": 131
+  },
+  {
+   "name": "Poetry",
+   "slug": "poetry",
+   "count": 15
+  },
+  {
+   "name": "Political Commentary",
+   "slug": "political-commentary",
+   "count": 61
+  },
+  {
+   "name": "Political Philosophy",
+   "slug": "political-philosophy",
+   "count": 19
+  },
+  {
+   "name": "Pop Culture and Media",
+   "slug": "pop-culture-and-media",
+   "count": 26
+  },
+  {
+   "name": "Pop Music and Social Themes",
+   "slug": "pop-music-and-social-themes",
+   "count": 25
+  },
+  {
+   "name": "Pop Rock",
+   "slug": "pop-rock",
+   "count": 9
+  },
+  {
+   "name": "Popstar",
+   "slug": "popstar",
+   "count": 14
+  },
+  {
+   "name": "Positive Attitude",
+   "slug": "positive-attitude",
+   "count": 82
+  },
+  {
+   "name": "Positive Thinking and Visualisation",
+   "slug": "positive-thinking-and-visualisation",
+   "count": 28
+  },
+  {
+   "name": "Postmodernism",
+   "slug": "postmodernism",
+   "count": 6
+  },
+  {
+   "name": "Power Dynamics and Opportunism",
+   "slug": "power-dynamics-and-opportunism",
+   "count": 46
+  },
+  {
+   "name": "Power of Love",
+   "slug": "power-of-love",
+   "count": 15
+  },
+  {
+   "name": "Pragmatism",
+   "slug": "pragmatism",
+   "count": 8
+  },
+  {
+   "name": "Pro-Rationality",
+   "slug": "pro-rationality",
+   "count": 14
+  },
+  {
+   "name": "Productivity and Achievement",
+   "slug": "productivity-and-achievement",
+   "count": 28
+  },
+  {
+   "name": "Professional Gambling",
+   "slug": "professional-gambling",
+   "count": 1
+  },
+  {
+   "name": "Professional/Competitive Gaming",
+   "slug": "professional-competitive-gaming",
+   "count": 1
+  },
+  {
+   "name": "Prolific Rockstar",
+   "slug": "prolific-rockstar",
+   "count": 22
+  },
+  {
+   "name": "Propaganda and Manipulation",
+   "slug": "propaganda-and-manipulation",
+   "count": 16
+  },
+  {
+   "name": "Protection of Democratic Freedoms",
+   "slug": "protection-of-democratic-freedoms",
+   "count": 14
+  },
+  {
+   "name": "Psychedelic Explorations",
+   "slug": "psychedelic-explorations",
+   "count": 27
+  },
+  {
+   "name": "Psychiatry",
+   "slug": "psychiatry",
+   "count": 2
+  },
+  {
+   "name": "Psychic Phenomena and Paranormal",
+   "slug": "psychic-phenomena-and-paranormal",
+   "count": 6
+  },
+  {
+   "name": "Psychoanalysis and the Unconscious",
+   "slug": "psychoanalysis-and-the-unconscious",
+   "count": 6
+  },
+  {
+   "name": "Psychological Horror",
+   "slug": "psychological-horror",
+   "count": 3
+  },
+  {
+   "name": "Psychopath",
+   "slug": "psychopath",
+   "count": 0
+  },
+  {
+   "name": "Psychopathy",
+   "slug": "psychopathy",
+   "count": 4
+  },
+  {
+   "name": "Public Education",
+   "slug": "public-education",
+   "count": 10
+  },
+  {
+   "name": "Public Service and Giving Back",
+   "slug": "public-service-and-giving-back",
+   "count": 10
+  },
+  {
+   "name": "Public Speaking and Communication",
+   "slug": "public-speaking-and-communication",
+   "count": 94
+  },
+  {
+   "name": "Punk Rock",
+   "slug": "punk-rock",
+   "count": 7
+  },
+  {
+   "name": "Puppetry",
+   "slug": "puppetry",
+   "count": 1
+  },
+  {
+   "name": "Pursuit of Objectivity and Open-mindedness",
+   "slug": "pursuit-of-objectivity-and-open-mindedness",
+   "count": 10
+  },
+  {
+   "name": "Pushing Sexual Boundaries",
+   "slug": "pushing-sexual-boundaries",
+   "count": 16
+  },
+  {
+   "name": "Quantum mechanics",
+   "slug": "quantum-mechanics",
+   "count": 6
+  },
+  {
+   "name": "Quantum Physics and Consciousness",
+   "slug": "quantum-physics-and-consciousness",
+   "count": 16
+  },
+  {
+   "name": "Quantum Physics and Grand Unified Theories",
+   "slug": "quantum-physics-and-grand-unified-theories",
+   "count": 14
+  },
+  {
+   "name": "Racial Identity Politics",
+   "slug": "racial-identity-politics",
+   "count": 8
+  },
+  {
+   "name": "Racial Purity and Supremacy",
+   "slug": "racial-purity-and-supremacy",
+   "count": 1
+  },
+  {
+   "name": "Racing Driver",
+   "slug": "racing-driver",
+   "count": 0
+  },
+  {
+   "name": "Radical Discipleship",
+   "slug": "radical-discipleship",
+   "count": 2
+  },
+  {
+   "name": "Rap Culture and Lifestyle",
+   "slug": "rap-culture-and-lifestyle",
+   "count": 8
+  },
+  {
+   "name": "Ratings and Metrics",
+   "slug": "ratings-and-metrics",
+   "count": 0
+  },
+  {
+   "name": "Rationality and Emotional Intelligence",
+   "slug": "rationality-and-emotional-intelligence",
+   "count": 5
+  },
+  {
+   "name": "Raw Vocals",
+   "slug": "raw-vocals",
+   "count": 20
+  },
+  {
+   "name": "Real-Life Experiences",
+   "slug": "real-life-experiences",
+   "count": 42
+  },
+  {
+   "name": "Realizing Potential",
+   "slug": "realizing-potential",
+   "count": 19
+  },
+  {
+   "name": "Rebellion",
+   "slug": "rebellion",
+   "count": 10
+  },
+  {
+   "name": "Reclusiveness, Shyness and Privacy",
+   "slug": "reclusiveness-shyness-and-privacy",
+   "count": 23
+  },
+  {
+   "name": "Reincarnation and Eastern Theology",
+   "slug": "reincarnation-and-eastern-theology",
+   "count": 5
+  },
+  {
+   "name": "Reinvention",
+   "slug": "reinvention",
+   "count": 5
+  },
+  {
+   "name": "Religion",
+   "slug": "religion",
+   "count": 29
+  },
+  {
+   "name": "Religious Inquiry",
+   "slug": "religious-inquiry",
+   "count": 20
+  },
+  {
+   "name": "Religious Symbolism in Art",
+   "slug": "religious-symbolism-in-art",
+   "count": 3
+  },
+  {
+   "name": "Research and Development",
+   "slug": "research-and-development",
+   "count": 24
+  },
+  {
+   "name": "Resiliency and Perseverance",
+   "slug": "resiliency-and-perseverance",
+   "count": 7
+  },
+  {
+   "name": "Responsible and Good Leadership",
+   "slug": "responsible-and-good-leadership",
+   "count": 21
+  },
+  {
+   "name": "Restrained Intensity",
+   "slug": "restrained-intensity",
+   "count": 5
+  },
+  {
+   "name": "Retaining Emotional Autonomy",
+   "slug": "retaining-emotional-autonomy",
+   "count": 8
+  },
+  {
+   "name": "Revenge and Retribution",
+   "slug": "revenge-and-retribution",
+   "count": 1
+  },
+  {
+   "name": "Riot Grrrl",
+   "slug": "riot-grrrl",
+   "count": 1
+  },
+  {
+   "name": "Risks and Daredevil Stunts",
+   "slug": "risks-and-daredevil-stunts",
+   "count": 13
+  },
+  {
+   "name": "Rituals and Symbolism",
+   "slug": "rituals-and-symbolism",
+   "count": 11
+  },
+  {
+   "name": "Role Model and Leadership",
+   "slug": "role-model-and-leadership",
+   "count": 6
+  },
+  {
+   "name": "Romantic Themes",
+   "slug": "romantic-themes",
+   "count": 9
+  },
+  {
+   "name": "Running and Racing",
+   "slug": "running-and-racing",
+   "count": 2
+  },
+  {
+   "name": "Sacred Geometry and Higher Dimensions",
+   "slug": "sacred-geometry-and-higher-dimensions",
+   "count": 4
+  },
+  {
+   "name": "Satire and Wit",
+   "slug": "satire-and-wit",
+   "count": 36
+  },
+  {
+   "name": "Savant Abilities",
+   "slug": "savant-abilities",
+   "count": 1
+  },
+  {
+   "name": "Science and Religion Debates",
+   "slug": "science-and-religion-debates",
+   "count": 16
+  },
+  {
+   "name": "Science Fiction and Dystopia",
+   "slug": "science-fiction-and-dystopia",
+   "count": 22
+  },
+  {
+   "name": "Science, Technology, Engineering, Mathematics",
+   "slug": "science-technology-engineering-mathematics",
+   "count": 38
+  },
+  {
+   "name": "Scientific Research",
+   "slug": "scientific-research",
+   "count": 28
+  },
+  {
+   "name": "Secular Humanism",
+   "slug": "secular-humanism",
+   "count": 8
+  },
+  {
+   "name": "Self Authenticity",
+   "slug": "self-authenticity",
+   "count": 45
+  },
+  {
+   "name": "Self-Help and Personal Growth",
+   "slug": "self-help-and-personal-growth",
+   "count": 64
+  },
+  {
+   "name": "Sensuality and Decadence",
+   "slug": "sensuality-and-decadence",
+   "count": 2
+  },
+  {
+   "name": "Sensuality and Sexuality",
+   "slug": "sensuality-and-sexuality",
+   "count": 45
+  },
+  {
+   "name": "Sexual Revolution and Expression",
+   "slug": "sexual-revolution-and-expression",
+   "count": 6
+  },
+  {
+   "name": "Shadow Integration",
+   "slug": "shadow-integration",
+   "count": 2
+  },
+  {
+   "name": "Sharp Wit and Clever Remarks",
+   "slug": "sharp-wit-and-clever-remarks",
+   "count": 10
+  },
+  {
+   "name": "Shock Factor",
+   "slug": "shock-factor",
+   "count": 46
+  },
+  {
+   "name": "Simulation, Virtual Reality, and Reality Itself",
+   "slug": "simulation-virtual-reality-and-reality-itself",
+   "count": 1
+  },
+  {
+   "name": "Single Source/Anti-Eclectic Inspiration",
+   "slug": "single-source-anti-eclectic-inspiration",
+   "count": 0
+  },
+  {
+   "name": "Skincare",
+   "slug": "skincare",
+   "count": 1
+  },
+  {
+   "name": "Social Dynamics",
+   "slug": "social-dynamics",
+   "count": 13
+  },
+  {
+   "name": "Social Justice and Improvement",
+   "slug": "social-justice-and-improvement",
+   "count": 37
+  },
+  {
+   "name": "Social Media and Communication",
+   "slug": "social-media-and-communication",
+   "count": 59
+  },
+  {
+   "name": "Socialism and Marxism",
+   "slug": "socialism-and-marxism",
+   "count": 4
+  },
+  {
+   "name": "Software Development and Programming",
+   "slug": "software-development-and-programming",
+   "count": 9
+  },
+  {
+   "name": "Sound Design and Synthesis",
+   "slug": "sound-design-and-synthesis",
+   "count": 26
+  },
+  {
+   "name": "Space Exploration",
+   "slug": "space-exploration",
+   "count": 2
+  },
+  {
+   "name": "Spiritual Leadership and Global Peace",
+   "slug": "spiritual-leadership-and-global-peace",
+   "count": 5
+  },
+  {
+   "name": "Spiritual Seeking",
+   "slug": "spiritual-seeking",
+   "count": 10
+  },
+  {
+   "name": "Step-by-Step Planning",
+   "slug": "step-by-step-planning",
+   "count": 8
+  },
+  {
+   "name": "Storytelling",
+   "slug": "storytelling",
+   "count": 26
+  },
+  {
+   "name": "Strategy in Chess and Life",
+   "slug": "strategy-in-chess-and-life",
+   "count": 10
+  },
+  {
+   "name": "Strong Work Ethic and Ambition",
+   "slug": "strong-work-ethic-and-ambition",
+   "count": 85
+  },
+  {
+   "name": "Support for LGBT Community",
+   "slug": "support-for-lgbt-community",
+   "count": 35
+  },
+  {
+   "name": "Surfing",
+   "slug": "surfing",
+   "count": 4
+  },
+  {
+   "name": "Surrealism",
+   "slug": "surrealism",
+   "count": 11
+  },
+  {
+   "name": "Surveillance and Privacy",
+   "slug": "surveillance-and-privacy",
+   "count": 1
+  },
+  {
+   "name": "Symbolism in Literature",
+   "slug": "symbolism-in-literature",
+   "count": 9
+  },
+  {
+   "name": "Systems Design",
+   "slug": "systems-design",
+   "count": 3
+  },
+  {
+   "name": "Tantra and Sexual Methods",
+   "slug": "tantra-and-sexual-methods",
+   "count": 3
+  },
+  {
+   "name": "Tarrot reading",
+   "slug": "tarrot-reading",
+   "count": 2
+  },
+  {
+   "name": "Tattoos and Body Modifications",
+   "slug": "tattoos-and-body-modifications",
+   "count": 36
+  },
+  {
+   "name": "Teaching and Education",
+   "slug": "teaching-and-education",
+   "count": 50
+  },
+  {
+   "name": "Techno",
+   "slug": "techno",
+   "count": 8
+  },
+  {
+   "name": "Technological Evolution vs. Biological Evolution",
+   "slug": "technological-evolution-vs-biological-evolution",
+   "count": 1
+  },
+  {
+   "name": "Technology and Digital Trends",
+   "slug": "technology-and-digital-trends",
+   "count": 26
+  },
+  {
+   "name": "Telepathy and Psychic Phenomena",
+   "slug": "telepathy-and-psychic-phenomena",
+   "count": 4
+  },
+  {
+   "name": "The Nature of Intelligence and Consciousness",
+   "slug": "the-nature-of-intelligence-and-consciousness",
+   "count": 1
+  },
+  {
+   "name": "the Supernatural in the Mundane",
+   "slug": "the-supernatural-in-the-mundane",
+   "count": 1
+  },
+  {
+   "name": "Theater and Drama",
+   "slug": "theater-and-drama",
+   "count": 8
+  },
+  {
+   "name": "Theatricality and Camp",
+   "slug": "theatricality-and-camp",
+   "count": 5
+  },
+  {
+   "name": "Theology",
+   "slug": "theology",
+   "count": 5
+  },
+  {
+   "name": "Third-Person Self Analysis",
+   "slug": "third-person-self-analysis",
+   "count": 13
+  },
+  {
+   "name": "Tough Persona and Bad-Boy Image",
+   "slug": "tough-persona-and-bad-boy-image",
+   "count": 35
+  },
+  {
+   "name": "Traditional Crafts and Skills",
+   "slug": "traditional-crafts-and-skills",
+   "count": 9
+  },
+  {
+   "name": "Traditionalism",
+   "slug": "traditionalism",
+   "count": 7
+  },
+  {
+   "name": "Transhumanism and Futurism",
+   "slug": "transhumanism-and-futurism",
+   "count": 7
+  },
+  {
+   "name": "Travel and Exploration",
+   "slug": "travel-and-exploration",
+   "count": 33
+  },
+  {
+   "name": "Unapologetic Communication",
+   "slug": "unapologetic-communication",
+   "count": 65
+  },
+  {
+   "name": "Uncompromising Convictions",
+   "slug": "uncompromising-convictions",
+   "count": 31
+  },
+  {
+   "name": "Unconventional Living",
+   "slug": "unconventional-living",
+   "count": 12
+  },
+  {
+   "name": "Underground Subculture",
+   "slug": "underground-subculture",
+   "count": 26
+  },
+  {
+   "name": "Universal Interconnectedness",
+   "slug": "universal-interconnectedness",
+   "count": 18
+  },
+  {
+   "name": "University Instruction",
+   "slug": "university-instruction",
+   "count": 30
+  },
+  {
+   "name": "Use of Healing Crystals and Tarot",
+   "slug": "use-of-healing-crystals-and-tarot",
+   "count": 5
+  },
+  {
+   "name": "Utopian Idealism",
+   "slug": "utopian-idealism",
+   "count": 1
+  },
+  {
+   "name": "Value of Solitude and Reflection",
+   "slug": "value-of-solitude-and-reflection",
+   "count": 32
+  },
+  {
+   "name": "Vegetarianism/Veganism",
+   "slug": "veganism",
+   "count": 12
+  },
+  {
+   "name": "Video Content Creation",
+   "slug": "video-content-creation",
+   "count": 51
+  },
+  {
+   "name": "Vintage and Retro Aesthetics",
+   "slug": "vintage-and-retro-aesthetics",
+   "count": 8
+  },
+  {
+   "name": "Violent Tendencies",
+   "slug": "violent-tendencies",
+   "count": 13
+  },
+  {
+   "name": "Visual Art and Installations",
+   "slug": "visual-art-and-installations",
+   "count": 9
+  },
+  {
+   "name": "Visual Storytelling",
+   "slug": "visual-storytelling",
+   "count": 38
+  },
+  {
+   "name": "Vlogging and Personal Story Sharing",
+   "slug": "vlogging-and-personal-story-sharing",
+   "count": 23
+  },
+  {
+   "name": "Voice Overs",
+   "slug": "voice-overs",
+   "count": 11
+  },
+  {
+   "name": "Wokeism and Affirmative Action",
+   "slug": "wokeism-and-affirmative-action",
+   "count": 3
+  },
+  {
+   "name": "Women in History",
+   "slug": "women-in-history",
+   "count": 4
+  },
+  {
+   "name": "Worldbuilding",
+   "slug": "worldbuilding",
+   "count": 2
+  },
+  {
+   "name": "Yoga and Meditation",
+   "slug": "yoga-and-meditation",
+   "count": 20
+  }
+ ]
+}

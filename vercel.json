@@ -1,0 +1,17 @@
+{
+  "cleanUrls": true,
+  "functions": {
+    "api/motif-match.py": { "maxDuration": 300 }
+  },
+  "redirects": [
+    { "source": "/motifs", "destination": "/", "permanent": false }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow" }
+      ]
+    }
+  ]
+}

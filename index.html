@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Motif Finder — Vultology</title>
+<style>
+  :root {
+    --bg: #14181d; --fg: #ccd5dd; --fg-strong: #eef3f7; --heading: #dbe6f2;
+    --muted: #8b98a5; --accent: #C9A227; --border: #3a4553; --link: #8fb3dd;
+    --quote-bg: #1b2129; --card: #191f26; --ok: #5dbd82;
+    --glow: rgba(201, 162, 39, 0.16);
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body { font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+         font-size: 16px; line-height: 1.55; color: var(--fg); background: var(--bg); }
+  a { color: var(--link); }
+  main { max-width: 920px; margin: 0 auto; padding: 52px 20px 90px; }
+
+  .kicker { letter-spacing: 0.18em; text-transform: uppercase; font-size: 0.78em;
+            font-weight: 700; color: var(--accent); margin: 0 0 10px; }
+  h1 { font-size: 2.3em; line-height: 1.15; color: var(--heading); margin: 0 0 14px; }
+  .lede { font-size: 1.06em; margin: 0 0 34px; max-width: 74ch; color: var(--fg); }
+
+  /* --- scope explainer --- */
+  .scopecard { display: flex; gap: 0; border: 1px solid var(--border); border-radius: 12px;
+               background: var(--quote-bg); margin: 0 0 30px; overflow: hidden; }
+  .scopecol { flex: 1; padding: 16px 20px 14px; }
+  .scopecol + .scopecol { border-left: 1px solid var(--border); }
+  .scopecol h3 { margin: 0 0 6px; font-size: 0.78em; letter-spacing: 0.14em;
+                 text-transform: uppercase; color: var(--accent); }
+  .scopecol + .scopecol h3 { color: var(--muted); }
+  .scopecol p { margin: 0; font-size: 0.88em; color: var(--fg); line-height: 1.5; }
+  .scopecol i { color: var(--muted); }
+
+  /* --- access code row --- */
+  .codebar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px;
+             margin: 0 0 30px; padding: 12px 16px; border: 1px solid var(--border);
+             border-radius: 10px; background: var(--quote-bg); }
+  .codebar label { font-size: 0.84em; color: var(--muted); letter-spacing: 0.03em; }
+  .codebar input[type="password"] { width: 200px; max-width: 100%; }
+  .codebar .remember-note { font-size: 0.8em; color: var(--muted); margin-left: auto; }
+  .code-error { color: #e0756c; font-size: 0.84em; margin-left: 6px; display: none; }
+
+  /* --- form controls, shared --- */
+  input[type="text"], input[type="password"] {
+    background: var(--bg); color: var(--fg-strong); border: 1px solid var(--border);
+    border-radius: 8px; padding: 10px 12px; font-size: 0.95em; font-family: inherit;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  input[type="text"]:focus, input[type="password"]:focus {
+    outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--glow);
+  }
+  input::placeholder { color: var(--muted); }
+
+  /* --- hero search form --- */
+  .searchcard { border: 1px solid var(--border); border-radius: 14px; background: var(--card);
+                padding: 28px 28px 24px; margin: 0 0 28px; }
+  .field { margin: 0 0 18px; }
+  .field:last-of-type { margin-bottom: 0; }
+  .field label { display: block; font-size: 0.86em; font-weight: 600; color: var(--fg-strong);
+                 margin: 0 0 6px; }
+  .field input { width: 100%; }
+  .field .hint { font-size: 0.82em; color: var(--muted); margin-top: 5px; }
+  .formrow { display: flex; gap: 16px; margin-top: 6px; }
+  .formrow .field { flex: 1; margin-bottom: 0; }
+
+  .submitrow { display: flex; align-items: center; gap: 16px; margin-top: 22px; }
+  button.primary {
+    background: var(--accent); color: #17140b; border: none; border-radius: 9px;
+    font-weight: 700; font-size: 0.98em; padding: 13px 28px; cursor: pointer;
+    letter-spacing: 0.01em; transition: transform 0.15s, box-shadow 0.15s, opacity 0.15s;
+  }
+  button.primary:hover:not(:disabled) { transform: translateY(-2px); box-shadow: 0 6px 20px var(--glow); }
+  button.primary:disabled { opacity: 0.55; cursor: not-allowed; transform: none; box-shadow: none; }
+  button.secondary {
+    background: transparent; color: var(--link); border: 1px solid var(--border);
+    border-radius: 9px; font-size: 0.9em; font-weight: 600; padding: 9px 16px; cursor: pointer;
+    transition: border-color 0.15s, color 0.15s;
+  }
+  button.secondary:hover { border-color: var(--accent); color: var(--accent); }
+  .copy-confirm { font-size: 0.86em; color: var(--ok); font-weight: 600; opacity: 0;
+                  transition: opacity 0.2s; }
+  .copy-confirm.show { opacity: 1; }
+
+  /* --- progress state --- */
+  .progress {
+    display: none; border: 1px solid var(--border); border-left: 4px solid var(--accent);
+    border-radius: 12px; background: var(--quote-bg); padding: 22px 26px; margin: 0 0 28px;
+  }
+  .progress.active { display: block; }
+  .barwrap { height: 6px; border-radius: 4px; background: var(--border); overflow: hidden;
+             margin: 0 0 16px; position: relative; }
+  .barwrap .bar {
+    position: absolute; top: 0; bottom: 0; width: 40%; border-radius: 4px;
+    background: var(--accent); animation: indeterminate 1.6s ease-in-out infinite;
+  }
+  @keyframes indeterminate {
+    0% { left: -40%; }
+    100% { left: 100%; }
+  }
+  .status-line { font-size: 0.98em; color: var(--fg-strong); font-weight: 600; min-height: 1.4em; }
+  .progress-note { font-size: 0.84em; color: var(--muted); margin: 8px 0 0; }
+  @media (prefers-reduced-motion: reduce) {
+    .barwrap .bar { animation: none; left: 0; width: 100%; opacity: 0.6; }
+  }
+
+  /* --- error card --- */
+  .errorcard {
+    display: none; border: 1px solid #e0756c; border-left: 4px solid #e0756c;
+    border-radius: 12px; background: var(--quote-bg); padding: 18px 22px; margin: 0 0 28px;
+    color: var(--fg-strong); font-size: 0.95em;
+  }
+  .errorcard.show { display: block; }
+  .errorcard b { color: #e0756c; }
+  .errorcard .retry-note { color: var(--muted); font-size: 0.88em; margin-top: 8px; }
+
+  /* --- results --- */
+  .results { display: none; }
+  .results.show { display: block; }
+
+  .summary-card {
+    border: 1px solid var(--border); border-left: 3px solid var(--accent);
+    background: var(--quote-bg); border-radius: 10px; padding: 18px 22px; margin: 0 0 12px;
+    font-size: 1em; color: var(--fg);
+  }
+  .summary-meta { font-size: 0.86em; color: var(--muted); margin-top: 10px; }
+  .summary-meta a { color: var(--link); }
+
+  h2.tier { font-size: 1.0em; letter-spacing: 0.13em; text-transform: uppercase;
+            color: var(--muted); margin: 30px 0 12px; }
+  h2.tier .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+                 margin-right: 8px; vertical-align: middle; }
+  .dot-high { background: var(--accent); }
+  .dot-medium { background: var(--link); }
+  .dot-low { background: var(--muted); }
+
+  .motif-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin: 0 0 6px; }
+  .motif-card {
+    border: 1px solid var(--border); border-radius: 12px; background: var(--card);
+    padding: 15px 18px 14px; transition: transform 0.18s, border-color 0.18s, box-shadow 0.18s;
+  }
+  .motif-card:hover { transform: translateY(-3px); border-color: var(--accent);
+                       box-shadow: 0 6px 22px var(--glow); }
+  .motif-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+  .motif-name { font-weight: 700; color: var(--fg-strong); font-size: 1.02em; }
+  .motif-count { flex: 0 0 auto; font-size: 0.76em; color: var(--muted); border: 1px solid var(--border);
+                 border-radius: 12px; padding: 2px 9px; white-space: nowrap; }
+  .motif-evidence { margin: 7px 0 0; font-size: 0.87em; color: var(--muted); line-height: 1.45; }
+
+  .actionsrow { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; margin: 22px 0 6px; }
+  .rejected-note { font-size: 0.86em; color: var(--muted); margin: 16px 0 0; }
+  .results-footer { font-size: 0.82em; color: var(--muted); margin: 28px 0 0; padding-top: 14px;
+                     border-top: 1px solid var(--border); }
+
+  footer.pagefoot { margin-top: 50px; color: var(--muted); font-size: 0.88em; }
+
+  @media (max-width: 640px) {
+    .scopecard { flex-direction: column; }
+    .scopecol + .scopecol { border-left: none; border-top: 1px solid var(--border); }
+    .formrow { flex-direction: column; gap: 0; }
+    .motif-grid { grid-template-columns: 1fr; }
+    .codebar { flex-direction: column; align-items: stretch; }
+    .codebar .remember-note { margin-left: 0; }
+    .codebar input[type="password"] { width: 100%; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+<p class="kicker">Vultology &middot; Certified Tools</p>
+<h1>Motif Finder</h1>
+<p class="lede">Enter a subject's name and get AI-suggested motifs from the vultology.com
+taxonomy &mdash; ranked, with evidence, for certified review.</p>
+
+<div class="scopecard">
+  <div class="scopecol">
+    <h3>What it finds</h3>
+    <p>Motifs visible in the subject's <b>public record</b> &mdash; occupations, creative
+    output and its themes, genres, causes, documented interests and beliefs
+    (<i>Acting and its aspects, Film Directing, Electronic Music, Activism&hellip;</i>).
+    In validation against certified assignments these are recovered at high rates.</p>
+  </div>
+  <div class="scopecol">
+    <h3>What stays with the typist</h3>
+    <p>Motifs describing <b>inner experience and interview demeanor</b>
+    (<i>Acute Perception, Flow State, Being Present, Self Authenticity&hellip;</i>) come from
+    watching the subject speak. No biography can see them &mdash; expect to add those
+    yourself after the interviews.</p>
+  </div>
+</div>
+
+<div class="codebar">
+  <label for="code">Access code</label>
+  <input type="password" id="code" autocomplete="off" spellcheck="false">
+  <span class="code-error" id="codeError">Access code not recognized.</span>
+  <span class="remember-note">Remembered on this device</span>
+</div>
+
+<form id="searchForm" class="searchcard" autocomplete="off">
+  <div class="field">
+    <label for="subjectName">Subject name</label>
+    <input type="text" id="subjectName" placeholder="e.g. Anthony Gonzalez" required>
+  </div>
+  <div class="field">
+    <label for="hint">Disambiguation hint <span style="font-weight:400;color:var(--muted);">(optional)</span></label>
+    <input type="text" id="hint" placeholder="e.g. the M83 musician — helps when several people share the name">
+  </div>
+  <div class="submitrow">
+    <button type="submit" class="primary" id="submitBtn">Find motifs</button>
+  </div>
+</form>
+
+<div class="progress" id="progress">
+  <div class="barwrap"><div class="bar"></div></div>
+  <div class="status-line" id="statusLine">Researching subject&hellip;</div>
+  <p class="progress-note">This can take 30&ndash;120 seconds &mdash; the model reads the subject's
+  background and cross-checks it against the motif catalog.</p>
+</div>
+
+<div class="errorcard" id="errorCard">
+  <div id="errorText"><b>Something went wrong.</b></div>
+  <div class="retry-note" id="retryNote"></div>
+</div>
+
+<div class="results" id="results">
+  <div class="summary-card">
+    <div id="personSummary"></div>
+    <div class="summary-meta" id="summaryMeta"></div>
+  </div>
+
+  <div id="tiersContainer"></div>
+
+  <div class="actionsrow">
+    <button type="button" class="secondary" id="copyBtn">Copy motif list</button>
+    <span class="copy-confirm" id="copyConfirm">Copied &#10003;</span>
+  </div>
+
+  <p class="rejected-note" id="rejectedNote" style="display:none;"></p>
+
+  <div class="results-footer" id="resultsFooter"></div>
+</div>
+
+<footer class="pagefoot">Vultology certified tools &middot; unlisted &middot; suggestions require
+certified review before use in any report.</footer>
+
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var CODE_KEY = "motif_tool_code";
+  var codeInput = document.getElementById("code");
+  var codeError = document.getElementById("codeError");
+  var form = document.getElementById("searchForm");
+  var nameInput = document.getElementById("subjectName");
+  var hintInput = document.getElementById("hint");
+  var submitBtn = document.getElementById("submitBtn");
+  var progressEl = document.getElementById("progress");
+  var statusLine = document.getElementById("statusLine");
+  var errorCard = document.getElementById("errorCard");
+  var errorText = document.getElementById("errorText");
+  var retryNote = document.getElementById("retryNote");
+  var resultsEl = document.getElementById("results");
+  var personSummary = document.getElementById("personSummary");
+  var summaryMeta = document.getElementById("summaryMeta");
+  var tiersContainer = document.getElementById("tiersContainer");
+  var rejectedNote = document.getElementById("rejectedNote");
+  var resultsFooter = document.getElementById("resultsFooter");
+  var copyBtn = document.getElementById("copyBtn");
+  var copyConfirm = document.getElementById("copyConfirm");
+
+  // Prefill access code from localStorage.
+  try {
+    var savedCode = localStorage.getItem(CODE_KEY);
+    if (savedCode) { codeInput.value = savedCode; }
+  } catch (e) { /* localStorage unavailable — non-fatal */ }
+
+  var STATUS_LINES = [
+    "Researching subject…",
+    "Reading the motif taxonomy…",
+    "Matching motifs…",
+    "Verifying against the catalog…"
+  ];
+  var statusTimer = null;
+
+  function startStatusCycle() {
+    var i = 0;
+    statusLine.textContent = STATUS_LINES[0];
+    statusTimer = window.setInterval(function () {
+      i = (i + 1) % STATUS_LINES.length;
+      statusLine.textContent = STATUS_LINES[i];
+    }, 4000);
+  }
+
+  function stopStatusCycle() {
+    if (statusTimer) { window.clearInterval(statusTimer); statusTimer = null; }
+  }
+
+  function escapeHtml(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+
+  function hideAllStates() {
+    progressEl.classList.remove("active");
+    errorCard.classList.remove("show");
+    resultsEl.classList.remove("show");
+  }
+
+  function showError(message, opts) {
+    opts = opts || {};
+    hideAllStates();
+    errorText.innerHTML = "<b>" + escapeHtml(opts.title || "Request failed.") + "</b>" +
+      (message ? " " + escapeHtml(message) : "");
+    retryNote.textContent = opts.retry || "";
+    errorCard.classList.add("show");
+  }
+
+  var TIER_ORDER = ["high", "medium", "low"];
+  var TIER_LABEL = { high: "High confidence", medium: "Medium", low: "Low" };
+
+  function renderResults(data) {
+    hideAllStates();
+
+    // Person summary
+    personSummary.textContent = data.person_summary || "";
+
+    var metaParts = [];
+    if (data.dossier_source === "wikipedia" && data.dossier_url) {
+      metaParts.push('<a href="' + escapeHtml(data.dossier_url) + '" target="_blank" rel="noopener noreferrer">Wikipedia dossier</a>');
+    }
+    var researchBits = [];
+    if (data.dossier_source === "wikipedia") { researchBits.push("Wikipedia"); }
+    var n = typeof data.searches_used === "number" ? data.searches_used : 0;
+    if (n > 0) { researchBits.push(n + " web search" + (n === 1 ? "" : "es")); }
+    if (researchBits.length) {
+      metaParts.push("Research: " + researchBits.join(" + "));
+    }
+    summaryMeta.innerHTML = metaParts.join(" &middot; ");
+
+    // Motif tiers
+    tiersContainer.innerHTML = "";
+    var motifs = Array.isArray(data.motifs) ? data.motifs.slice() : [];
+    var byTier = { high: [], medium: [], low: [] };
+    motifs.forEach(function (m) {
+      var t = (m.confidence || "").toLowerCase();
+      if (byTier[t]) { byTier[t].push(m); } else { byTier.low.push(m); }
+    });
+
+    TIER_ORDER.forEach(function (tier) {
+      var list = byTier[tier];
+      if (!list.length) { return; }
+      var h = document.createElement("h2");
+      h.className = "tier";
+      h.innerHTML = '<span class="dot dot-' + tier + '"></span>' + TIER_LABEL[tier];
+      tiersContainer.appendChild(h);
+
+      var grid = document.createElement("div");
+      grid.className = "motif-grid";
+      list.forEach(function (m) {
+        var card = document.createElement("div");
+        card.className = "motif-card";
+        var countBadge = (typeof m.count === "number")
+          ? '<span class="motif-count">' + m.count + " in DB</span>"
+          : "";
+        card.innerHTML =
+          '<div class="motif-top"><span class="motif-name">' + escapeHtml(m.name) + '</span>' +
+          countBadge + '</div>' +
+          '<p class="motif-evidence">' + escapeHtml(m.evidence || "") + '</p>';
+        grid.appendChild(card);
+      });
+      tiersContainer.appendChild(grid);
+    });
+
+    // Rejected footnote
+    if (Array.isArray(data.rejected) && data.rejected.length) {
+      rejectedNote.style.display = "";
+      rejectedNote.textContent = "Not in the catalog (dropped): " + data.rejected.join(", ");
+    } else {
+      rejectedNote.style.display = "none";
+      rejectedNote.textContent = "";
+    }
+
+    // Footer fine print
+    var footBits = [];
+    footBits.push("AI suggestions for certified review — not certified assignments.");
+    var techBits = [];
+    if (data.model) { techBits.push(escapeHtml(data.model)); }
+    if (data.prompt_version) { techBits.push("prompt " + escapeHtml(data.prompt_version)); }
+    if (typeof data.cost === "number") { techBits.push("$" + data.cost.toFixed(2)); }
+    if (techBits.length) { footBits.push(techBits.join(" · ")); }
+    resultsFooter.textContent = footBits.join("  —  ");
+
+    // Stash ordered accepted-motif names for the copy button.
+    resultsEl.dataset.motifNames = motifs
+      .filter(function (m) { return TIER_ORDER.indexOf((m.confidence || "").toLowerCase()) !== -1; })
+      .sort(function (a, b) {
+        return TIER_ORDER.indexOf((a.confidence || "").toLowerCase()) -
+               TIER_ORDER.indexOf((b.confidence || "").toLowerCase());
+      })
+      .map(function (m) { return m.name; })
+      .join("\n");
+
+    resultsEl.classList.add("show");
+  }
+
+  copyBtn.addEventListener("click", function () {
+    var text = resultsEl.dataset.motifNames || "";
+    var confirmShown = function () {
+      copyConfirm.classList.add("show");
+      window.setTimeout(function () { copyConfirm.classList.remove("show"); }, 1800);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(confirmShown, function () {
+        fallbackCopy(text, confirmShown);
+      });
+    } else {
+      fallbackCopy(text, confirmShown);
+    }
+  });
+
+  function fallbackCopy(text, done) {
+    var ta = document.createElement("textarea");
+    ta.value = text;
+    ta.style.position = "fixed";
+    ta.style.left = "-9999px";
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    try { document.execCommand("copy"); } catch (e) { /* ignore */ }
+    document.body.removeChild(ta);
+    done();
+  }
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    var name = nameInput.value.trim();
+    var hint = hintInput.value.trim();
+    var code = codeInput.value;
+
+    codeError.style.display = "none";
+    if (!name) { nameInput.focus(); return; }
+
+    try { localStorage.setItem(CODE_KEY, code); } catch (e) { /* non-fatal */ }
+
+    hideAllStates();
+    submitBtn.disabled = true;
+    progressEl.classList.add("active");
+    startStatusCycle();
+
+    var controller = (typeof AbortController !== "undefined") ? new AbortController() : null;
+    var timeoutId = null;
+    if (controller) {
+      timeoutId = window.setTimeout(function () { controller.abort(); }, 150000);
+    }
+
+    fetch("/api/motif-match", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: name, hint: hint, code: code }),
+      signal: controller ? controller.signal : undefined
+    })
+      .then(function (resp) {
+        if (timeoutId) { window.clearTimeout(timeoutId); }
+        if (resp.status === 401) {
+          codeError.style.display = "inline";
+          return resp.json().catch(function () { return {}; }).then(function () {
+            throw { handled401: true };
+          });
+        }
+        return resp.json().catch(function () {
+          throw new Error("The server returned an unreadable response (status " + resp.status + ").");
+        }).then(function (data) {
+          if (!resp.ok) {
+            throw new Error(data && data.error ? data.error : ("Request failed with status " + resp.status + "."));
+          }
+          return data;
+        });
+      })
+      .then(function (data) {
+        renderResults(data);
+      })
+      .catch(function (err) {
+        if (err && err.handled401) {
+          hideAllStates();
+          return;
+        }
+        if (err && err.name === "AbortError") {
+          showError("The request took too long and was cancelled.", {
+            title: "Timed out.",
+            retry: "The subject may be unusually hard to research. Try again, or add a disambiguation hint to narrow the search."
+          });
+          return;
+        }
+        var isNetwork = err instanceof TypeError;
+        showError(err && err.message ? err.message : "Unknown error.", {
+          title: isNetwork ? "Couldn't reach the server." : "Request failed.",
+          retry: "Check your connection and try again in a moment."
+        });
+      })
+      .finally(function () {
+        stopStatusCycle();
+        progressEl.classList.remove("active");
+        submitBtn.disabled = false;
+      });
+  });
+})();
+</script>
+</body>
+</html>

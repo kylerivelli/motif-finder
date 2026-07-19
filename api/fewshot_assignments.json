@@ -1,0 +1,189 @@
+{
+ "aaliyah": {
+  "name": "Aaliyah",
+  "motifs": [
+   {
+    "slug": "aesthetics-beauty-and-artworks",
+    "name": "Aesthetics, Beauty and Artworks"
+   },
+   {
+    "slug": "artistic-expression-and-creativity",
+    "name": "Artistic Expression and Creativity"
+   },
+   {
+    "slug": "celebrity-and-pop-culture",
+    "name": "Celebrity and Pop Culture"
+   },
+   {
+    "slug": "dancing-techniques-and-choreography",
+    "name": "Dancing Techniques and Choreography"
+   },
+   {
+    "slug": "empowerment-through-art-and-language",
+    "name": "Empowerment through Art and Language"
+   },
+   {
+    "slug": "fashion",
+    "name": "Fashion and Style"
+   },
+   {
+    "slug": "human-condition",
+    "name": "Human Condition"
+   },
+   {
+    "slug": "music-and-its-aspects",
+    "name": "Music and its aspects"
+   },
+   {
+    "slug": "pop-music-and-social-themes",
+    "name": "Pop Music and Social Themes"
+   },
+   {
+    "slug": "sensuality-and-sexuality",
+    "name": "Sensuality and Sexuality"
+   }
+  ]
+ },
+ "albert-einstein": {
+  "name": "Albert Einstein",
+  "motifs": [
+   {
+    "slug": "academic-interests-and-education",
+    "name": "Academic Interests and Education"
+   },
+   {
+    "slug": "activism-and-advocacy",
+    "name": "Activism and Advocacy"
+   },
+   {
+    "slug": "human-moral-responsibility",
+    "name": "Human Moral Responsibility"
+   },
+   {
+    "slug": "hypothetical-scenarios",
+    "name": "Hypothetical Scenarios"
+   },
+   {
+    "slug": "imaginative-exploration",
+    "name": "Imaginative Exploration"
+   },
+   {
+    "slug": "music-and-its-aspects",
+    "name": "Music and its aspects"
+   },
+   {
+    "slug": "nobel-prize",
+    "name": "Nobel Prize"
+   },
+   {
+    "slug": "philosophical-inquiry",
+    "name": "Philosophical Inquiry"
+   },
+   {
+    "slug": "playfulness-and-humor",
+    "name": "Playfulness and Humor"
+   },
+   {
+    "slug": "quantum-physics-and-grand-unified-theories",
+    "name": "Quantum Physics and Grand Unified Theories"
+   },
+   {
+    "slug": "research-and-development",
+    "name": "Research and Development"
+   },
+   {
+    "slug": "science-technology-engineering-mathematics",
+    "name": "Science, Technology, Engineering, Mathematics"
+   },
+   {
+    "slug": "scientific-research",
+    "name": "Scientific Research"
+   }
+  ]
+ },
+ "aaron-doughty": {
+  "name": "Aaron Doughty",
+  "motifs": [
+   {
+    "slug": "astrological-beliefs",
+    "name": "Astrological Beliefs"
+   },
+   {
+    "slug": "autonomy-and-self-empowerment",
+    "name": "Autonomy and Self-Empowerment"
+   },
+   {
+    "slug": "being-present-and-living-in-the-moment",
+    "name": "Being Present and Living in the Moment"
+   },
+   {
+    "slug": "consciousness-and-reality-creation",
+    "name": "Consciousness and Reality Creation"
+   },
+   {
+    "slug": "human-interconnectedness",
+    "name": "Human Interconnectedness"
+   },
+   {
+    "slug": "inner-work-and-self-transformation",
+    "name": "Inner Work and Self-Transformation"
+   },
+   {
+    "slug": "integration-of-science-and-spirituality",
+    "name": "Integration of Science and Spirituality"
+   },
+   {
+    "slug": "law-of-attraction-and-energy-beliefs",
+    "name": "Law of Attraction and Energy Beliefs"
+   },
+   {
+    "slug": "life-coaching-and-guidance",
+    "name": "Life Coaching and Guidance"
+   },
+   {
+    "slug": "mind-over-body",
+    "name": "Mind Over Body"
+   },
+   {
+    "slug": "new-age-beliefs",
+    "name": "New Age Beliefs"
+   },
+   {
+    "slug": "no-self-mindfulness-and-presence",
+    "name": "No-self, Mindfulness and Presence"
+   },
+   {
+    "slug": "personal-narratives-and-stories",
+    "name": "Personal Narratives and Stories"
+   },
+   {
+    "slug": "personal-philosophy-and-beliefs",
+    "name": "Personal Philosophy and Beliefs"
+   },
+   {
+    "slug": "positive-attitude",
+    "name": "Positive Attitude"
+   },
+   {
+    "slug": "positive-thinking-and-visualisation",
+    "name": "Positive Thinking and Visualisation"
+   },
+   {
+    "slug": "psychedelic-explorations",
+    "name": "Psychedelic Explorations"
+   },
+   {
+    "slug": "self-help-and-personal-growth",
+    "name": "Self-Help and Personal Growth"
+   },
+   {
+    "slug": "tattoos-and-body-modifications",
+    "name": "Tattoos and Body Modifications"
+   },
+   {
+    "slug": "video-content-creation",
+    "name": "Video Content Creation"
+   }
+  ]
+ }
+}
